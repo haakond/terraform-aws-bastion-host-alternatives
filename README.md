@@ -2,6 +2,7 @@
 
 # About
 Terraform AWS sample module to provision resources to demonstrate alternative workflows to the traditional Bastion Host pattern with SSH/RDP.
+For more information see [https://hedrange.com/2024/07/03/bye-bye-bastion/](https://hedrange.com/2024/07/03/bye-bye-bastion/).
 
 # Providers
 Requires the aws provider.
@@ -66,7 +67,7 @@ See [examples/main.tf](examples/main.tf).
 
 ## Authors/contributors
 
-See [contributors.](https://github.com/haakond/terraform-aws-chatbot/graphs/contributors)
+See [contributors.](https://github.com/haakond/terraform-aws-bastion-host-alternatives/graphs/contributors)
 
 ## License
 
