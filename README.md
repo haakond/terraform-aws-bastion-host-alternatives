@@ -1,5 +1,4 @@
 # terraform-aws-bastion-host-alternatives
-terraform-aws-bastion-host-alternatives
 
 # About
 Terraform AWS sample module to provision resources to demonstrate alternative workflows to the traditional Bastion Host pattern with SSH/RDP.
