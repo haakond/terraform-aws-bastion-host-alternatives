@@ -215,10 +215,10 @@ module "db" {
   vpc_id               = module.vpc.vpc_id
   db_subnet_group_name = module.vpc.database_subnet_group_name
   security_group_rules = {
-    ingress = {
+    ingress0 = {
       source_security_group_id = aws_security_group.private_access.id
     }
-    ingress = {
+    ingress1 = {
       source_security_group_id = data.aws_security_group.cloud9_security_group.id
     }
     kms_vpc_endpoint = {
